@@ -1,0 +1,103 @@
+/* *{border: 2px solid red;} */
+.container{
+    display: flex;
+}
+.intro{
+    background-image: url(./images/background.png);
+    background-size: cover;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro-inner{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro-inner img{
+    width: 50%;
+}
+.intro-inner p{
+    width: 40%;
+}
+.loginpage{
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.login-top{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.lang{
+    text-align: end;
+}
+.wel{
+    font-size: 40px;
+}
+.login-main{
+    width: 600px;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.email input{
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.rem{
+    display: flex;
+    justify-content: space-between;
+}
+.rem a{
+    text-decoration: none;
+    color: gray;
+}
+.rem a:hover{
+    text-decoration:underline ;
+    color: rgb(38, 239, 38);
+}
+.login-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #025e80;
+    border: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.Or hr{
+    position: relative;
+    bottom: 25px;
+    left:50px;
+    width: 400px;
+}
+.google-btn{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid gray;
+}
+.dont a{
+    text-decoration: none;
+    color: gray;
+}
+.dont a:hover{
+    text-decoration:underline ;
+    color: rgb(38, 239, 38);
+}
